@@ -5,12 +5,14 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import Lain from './components/Lain';
 
 function App() {
   return (
     <div className="App">
       <Message />
       <Counter />
+      <Lain />
       {/* <Greet name='Bruce' heroName='Batman'>
         <p>Give me all of your money</p>
         <button>click me</button>
