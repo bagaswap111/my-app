@@ -6,6 +6,9 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Lain from './components/Lain';
+import FunctionClick from './components/Function-click';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Message />
       <Counter />
       <Lain />
+      <FunctionClick />
+      <ClassClick />
+      <EventBind />
       {/* <Greet name='Bruce' heroName='Batman'>
         <p>Give me all of your money</p>
         <button>click me</button>
