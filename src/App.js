@@ -9,16 +9,22 @@ import Lain from './components/Lain';
 import FunctionClick from './components/Function-click';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComp from './components/ParentComp';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <NameList />
+      {/* <Message />
       <Counter />
       <Lain />
       <FunctionClick />
       <ClassClick />
-      <EventBind />
+      <EventBind /> */}
+      {/* <ParentComp />
+      <UserGreeting /> */}
       {/* <Greet name='Bruce' heroName='Batman'>
         <p>Give me all of your money</p>
         <button>click me</button>
