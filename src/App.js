@@ -12,11 +12,13 @@ import EventBind from './components/EventBind';
 import ParentComp from './components/ParentComp';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <Form />
+      {/* <NameList /> */}
       {/* <Message />
       <Counter />
       <Lain />
